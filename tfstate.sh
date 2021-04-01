@@ -1,5 +1,5 @@
 #Create RG for storing State Files
-az group create --location westus2 --name rg-terraformstate
+az group create --location westeurope --name rg-terraformstate
 
 #Create Storage Account
 az storage account create --name $1 --resource-group rg-terraformstate --location westeurope --sku Standard_LRS
