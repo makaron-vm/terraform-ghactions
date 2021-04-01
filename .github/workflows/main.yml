@@ -25,7 +25,7 @@ jobs:
       ARM_TENANT_ID: '7f4afdcb-b5ee-4dbf-979f-2cb8752be6cc'
       ARM_CLIENT_ID: 'daf8dfaa-216a-4b6e-9afb-d95b618343d0'
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
-      AZURE_STORAGE: 'admasoft$RANDOM'
+      AZURE_STORAGE: 'admasoft8383'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
