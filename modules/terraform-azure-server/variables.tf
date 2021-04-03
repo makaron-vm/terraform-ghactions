@@ -6,7 +6,7 @@ variable "servername" {
 variable "location" {
   type        = string
   description = "Azure location of network components"
-  default     = "westus2"
+  default     = "westeurope"
 }
 
 variable "resource_group_name" {
@@ -32,7 +32,7 @@ variable "storage_account_type" {
     description = "Disk type Premium in Primary location Standard in DR location"
 
     default = {
-        westus2 = "Premium_LRS"
+        westeurope = "Premium_LRS"
         eastus = "Standard_LRS"
     }
 }

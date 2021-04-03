@@ -21,7 +21,7 @@ provider "azurerm" {
 #create resource group
 resource "azurerm_resource_group" "rg" {
   name     = "rg-webserver-cs"
-  location = "westus2"
+  location = "westeurope"
 }
 
 #Create virtual network

@@ -23,7 +23,7 @@ jobs:
     env:
       ARM_SUBSCRIPTION_ID: '004205ae-f333-45fb-9540-48aaa01a6e82'
       ARM_TENANT_ID: '7f4afdcb-b5ee-4dbf-979f-2cb8752be6cc'
-      ARM_CLIENT_ID: 'daf8dfaa-216a-4b6e-9afb-d95b618343d0'
+      ARM_CLIENT_ID: '1db2be33-7ba9-4e4c-9501-6e09abe3d71b'
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
       AZURE_STORAGE: 'admasoft8383'
 
