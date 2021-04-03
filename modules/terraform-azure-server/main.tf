@@ -10,7 +10,7 @@ terraform {
 
 # Create NIC
 resource "azurerm_network_interface" "nic" {
-  name                      = "nic-${var.servername}-001 "
+  name                      = "nic-${var.servername}-001"
   location                  = var.location
   resource_group_name       = var.resource_group_name
 
